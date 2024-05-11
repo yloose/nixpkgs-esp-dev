@@ -25,6 +25,7 @@ let
     riscv32-esp-elf = pkgs: (with pkgs; [ ]);
     esp32ulp-elf = pkgs: (with pkgs; [ ]);
     openocd-esp32 = pkgs: (with pkgs; [ zlib libusb1 udev ]);
+    esp-rom-elfs = pkgs: (with pkgs; [ ]);
   };
   # Map nix system strings to the platforms listed in tools.json
   systemToToolPlatformString = {
